@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: PitchOps : Le DevOps simplifié # the main title
+title: "PitchOps : Le DevOps simplifié" # the main title
 
 tagline: Explorez astuces, outils et concepts du DevOps # it will display as the subtitle
 
