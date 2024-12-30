@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: "PitchOps : Le DevOps simplifié" # the main title
 
-tagline: Explorez astuces, outils et concepts du DevOps # it will display as the subtitle
+tagline: Explorez astuces, outils et concepts # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Plongez dans l'univers du DevOps avec des guides pratiques, des outils et des ressources pour améliorer votre infrastructure.
