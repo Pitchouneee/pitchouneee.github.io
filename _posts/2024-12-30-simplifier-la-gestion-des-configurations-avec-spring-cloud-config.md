@@ -197,3 +197,7 @@ Cette flexibilité permet à chaque service d’adapter ses paramètres en fonct
 ## Conclusion
 
 Spring Cloud Config est une solution idéale pour simplifier la gestion des configurations dans une architecture distribuée. Couplé à un SCM comme GitHub ou GitLab, il offre un système centralisé, sécurisé et collaboratif qui améliore considérablement le workflow. Que vous soyez un pro des microservices ou que vous débutiez, Spring Cloud Config peut transformer la manière de gérer les configurations. Alors, prêt à vous lancer ?
+
+## Sources
+
+Pour en savoir plus, consultez la documentation officielle : [Spring Cloud Config Documentation](https://docs.spring.io/spring-cloud-config/docs/current/reference/html/)
