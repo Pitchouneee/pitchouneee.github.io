@@ -2,7 +2,7 @@
 title: Simplifier la gestion des configurations avec Spring Cloud Config
 author: Corentin
 date: 2024-12-30 14:42:00 +0100
-categories: [Blog, Tutoriel]
+categories: [Architecture logicielle, Spring]
 tags: [Spring Cloud Config, Microservices, GitHub, DevOps, Configuration Management]
 render_with_liquid: false
 ---
