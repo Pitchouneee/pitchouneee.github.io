@@ -7,8 +7,6 @@ tags: [Spring Cloud Config, Microservices, GitHub, DevOps, Configuration Managem
 render_with_liquid: false
 ---
 
-# Simplifier la gestion des configurations avec Spring Cloud Config
-
 Dans un monde de plus en plus orienté vers les architectures distribuées, gérer les configurations de 
 manière efficace peut vite devenir un vrai casse-tête. Entre les multiples services, les environnements 
 variés (développement, test, production) et les déploiements continus, une solution centralisée et 
