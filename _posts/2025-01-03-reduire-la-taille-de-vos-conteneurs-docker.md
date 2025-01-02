@@ -61,7 +61,7 @@ En ignorant des dossiers comme `target/` ou `.git` , vous réduisez directement 
 
 ---
 
-## 4. Minimisez les couches (Un Dockerfile épuré, c’est toujours mieux)
+## 4. Minimisez les couches (un Dockerfile épuré, c’est toujours mieux)
 
 Chaque instruction `RUN` , `COPY` ou `ADD` ajoute une couche à votre image. Trop de couches ? Trop de poids ! Combinez-les pour un Dockerfile plus compact.
 
@@ -80,7 +80,7 @@ Moins de couches, c’est une image plus légère et une construction plus rapid
 
 ---
 
-## 5. Builds multi-steps : Faites simple, faites efficace
+## 5. Builds multi-steps : faites simple, faites efficace
 
 Les builds multi-steps permettent de tout faire dans une première étape (compilation, tests, etc.) et de ne garder que le strict nécessaire dans l’image finale.
 

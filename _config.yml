@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
 url: "https://pitchouneee.github.io"
 
 # Whether to publish posts with a future date
-future: true
+future: false
 
 github:
   username: Pitchouneee # change to your GitHub username
