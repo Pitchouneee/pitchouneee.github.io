@@ -7,7 +7,7 @@
     "*.html": "liquid"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "mervin.markdown-formatter"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   },
   // Formatter
   "[html][liquid]": {
