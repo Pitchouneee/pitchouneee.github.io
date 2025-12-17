@@ -24,7 +24,7 @@ Au début, l'application ne gère que les **voitures**. Votre code est simple. M
 L'approche naïve consiste à tout gérer dans la classe principale `GPS` avec une grosse structure conditionnelle :
 
 ```java
-// Ce qu'il faut éviter ❌
+// Ce qu'il faut éviter
 public class GPS {
     public void naviguer(String type, String A, String B) {
         if (type.equals("VOITURE")) {
