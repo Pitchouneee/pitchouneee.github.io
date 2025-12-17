@@ -60,31 +60,7 @@ Au lieu que le GPS sache *comment* calculer la route, il va déléguer cette tâ
 2. **Les stratégies concrètes :** Chaque mode de transport (Voiture, Piéton, Bus) a sa propre classe.
 3. **Le contexte (le GPS) :** Il possède une référence vers une stratégie et l'utilise sans connaître les détails techniques.
 
-```mermaid
-classDiagram
-    class GPS {
-        -strategy : RouteStrategy
-        +setStrategy(strategy: RouteStrategy)
-        +naviguer(depart: String, arrivee: String)
-    }
-    class RouteStrategy {
-        <<interface>>
-        +construireItineraire(depart: String, arrivee: String)
-    }
-    class VoitureStrategy {
-        +construireItineraire(depart: String, arrivee: String)
-    }
-    class PietonStrategy {
-        +construireItineraire(depart: String, arrivee: String)
-    }
-    class TransportStrategy {
-        +construireItineraire(depart: String, arrivee: String)
-    }
-    GPS --> RouteStrategy : utilise
-    VoitureStrategy ..|> RouteStrategy : implémente
-    PietonStrategy ..|> RouteStrategy : implémente
-    TransportStrategy ..|> RouteStrategy : implémente
-```
+[![](https://mermaid.ink/img/pako:eNq1U8FOwkAQ_ZVmThpLUwq0ZUO4aGI8mBAxHkwvm3Yom7S7zXSXiMgH-R3-mAu0imCiMbKX3Xl5b97s7M4KUpUhMEgLXtdXgufEy0Q6dm0R53oydVY7YLM6tSauMV86zLlTRuO0iT8pFzXqFj1r6Qfs8z265AuRG6SzDCtOmjmWJGTuOpxILBBboNGs96v7knS_ztFISI004ymOx3tmqZK2JCMIb7SQSNye_mL8oIQ29K31v3lMBGolT2pxT1zWlSJ9IpfN7-l0xgfvxByjRSFq3JEOe-l5L8cKUVbF22uJ9lV3qoPu_E50fN-fdOBCiVRykdkh2TYnAT3HEhNg9pjhjJtCJ5DItaVyo9V0KVNgtm_oAimTz4HNeFHbyFSZdWiGrKVUXD4q9RFiJrSi22YoN9uWAmwFT8CCvteN42AY-v1uOAjCgQtLi0ax1xv6vWHsd6MgDIK1C8_bnL4XxcHA7_WjYNgLwzgOXchpc5emPpQZ0qUyUgOL-ut3ULBZmQ?type=png)](https://mermaid.live/edit#pako:eNq1U8FOwkAQ_ZVmThpLUwq0ZUO4aGI8mBAxHkwvm3Yom7S7zXSXiMgH-R3-mAu0imCiMbKX3Xl5b97s7M4KUpUhMEgLXtdXgufEy0Q6dm0R53oydVY7YLM6tSauMV86zLlTRuO0iT8pFzXqFj1r6Qfs8z265AuRG6SzDCtOmjmWJGTuOpxILBBboNGs96v7knS_ztFISI004ymOx3tmqZK2JCMIb7SQSNye_mL8oIQ29K31v3lMBGolT2pxT1zWlSJ9IpfN7-l0xgfvxByjRSFq3JEOe-l5L8cKUVbF22uJ9lV3qoPu_E50fN-fdOBCiVRykdkh2TYnAT3HEhNg9pjhjJtCJ5DItaVyo9V0KVNgtm_oAimTz4HNeFHbyFSZdWiGrKVUXD4q9RFiJrSi22YoN9uWAmwFT8CCvteN42AY-v1uOAjCgQtLi0ax1xv6vWHsd6MgDIK1C8_bnL4XxcHA7_WjYNgLwzgOXchpc5emPpQZ0qUyUgOL-ut3ULBZmQ)
 
 ## 3. Implémentation en Java
 
